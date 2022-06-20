@@ -1,5 +1,6 @@
 class UserController < ApplicationController
-  def list
+layout 'user'  
+def list
     @users = User.all
   end
 

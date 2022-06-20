@@ -1,5 +1,7 @@
 class ReservationController < ApplicationController
-  def list
+layout 'reservation'
+
+def list
     @reservations = Reservation.all
   end
 
