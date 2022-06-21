@@ -1,0 +1,22 @@
+<h1>dodaj rezerwacje</h1>
+
+<%= form_tag :action => 'create' do %>
+<p><label for = "id_reservation">Title</label>:
+
+<%= text_field 'reservations', 'title' %></p>
+<p><label for = "id_user">Price</label>:
+
+<%= text_field 'reservations', 'price' %></p>
+<p><label for = "id_parking_spot">Subject</label>:
+
+<%= text_field 'reservations', 'price' %></p>
+<p><label for = "reservation_start">Subject</label>:
+
+<%= text_field 'reservations', 'price' %></p>
+<p><label for = "reservation_end">Subject</label>:
+
+<%= text_area 'reservations', 'description' %></p>
+<%= submit_tag "Create" %>
+
+<% end -%>
+<%= link_to 'Back', {:action => 'list'} %>

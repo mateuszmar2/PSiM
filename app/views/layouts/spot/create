@@ -1,0 +1,18 @@
+<h1>dodaj parking spot</h1>
+
+<%= form_tag :action => 'create' do %>
+<p><label for = "id_parking_spot">Title</label>:
+
+
+<%= text_field 'spot', 'X' %></p>
+<p><label for = "coordinate_x">Subject</label>:
+
+<%= text_field 'reservations', 'Y' %></p>
+<p><label for = "coordinate_y">Subject</label>:
+
+
+<%= text_area 'spot', 'description' %></p>
+<%= submit_tag "Create" %>
+
+<% end -%>
+<%= link_to 'Back', {:action => 'list'} %>

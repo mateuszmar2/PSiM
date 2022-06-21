@@ -1,0 +1,9 @@
+<h1><%= @reservation.user_id %></h1>
+
+<p>
+   <strong>Price: </strong> $<%= @reservation.parking_spot_id %><br />
+    <strong>Price: </strong> $<%= @reservation.reservation_start %><br />
+     <strong>Price: </strong> $<%= @reservation.reservation_end %><br />
+</p>
+
+<hr />

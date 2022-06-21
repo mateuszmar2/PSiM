@@ -1,0 +1,9 @@
+<h1>Edit spot detail</h1>
+
+<%= form_for @spot, :url =>{:action => "update", :id =>@spot} do |f| %>
+
+<p>X <%= f.text_field 'coordinate_x' %></p>
+<p>Y <%= f.text_field  'coordinate_y' %></p>
+
+<%= f.submit "Save changes" %>
+<% end %>

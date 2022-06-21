@@ -1,0 +1,9 @@
+<h1><%= @users.user_id %></h1>
+
+<p>
+   <strong>First Name: </strong> $<%= @users.first_name %><br />
+    <strong>Last name: </strong> $<%= @users.last_name %><br />
+     <strong>email: </strong> $<%= @users.email %><br />
+</p>
+
+<hr />

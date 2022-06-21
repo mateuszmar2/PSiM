@@ -1,0 +1,33 @@
+<h1>dodaj user</h1>
+
+
+<%= text_field 'users', 'title' %></p>
+<p><label for = "id_user">Price</label>:
+
+<%= text_field 'users', 'price' %></p>
+<p><label for = "first_name">Subject</label>:
+
+<%= text_field 'users', 'price' %></p>
+<p><label for = "last_name">Subject</label>:
+
+<%= text_field 'users', 'price' %></p>
+<p><label for = "email">Subject</label>: 
+
+<%= text_field 'users', 'price' %></p>
+<p><label for = "password">Subject</label>:
+
+<%= text_field 'users', 'price' %></p>
+<p><label for = "password_confirmation">Subject</label>:
+
+<%= text_field 'users', 'price' %></p>
+<p><label for = "is_admin">Subject</label>:
+
+<%= text_field 'users', 'price' %></p>
+<p><label for = "license_plate">Subject</label>:
+
+
+<%= text_area 'users', 'description' %></p>
+<%= submit_tag "Create" %>
+
+<% end -%>
+<%= link_to 'Back', {:action => 'list'} %>

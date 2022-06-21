@@ -1,0 +1,12 @@
+<% if @spots.blank ? %>
+<p>Brak miejsc.< / p>
+< % else%>
+<p>Oto sa miejsca< / p>
+
+<ul id = "spots">
+< % @spots.each do | c | %>
+<li> < %= link_to c.parking_spot_id, { :action = > 'show', :id = > c.id } - % > < / li>
+< % end%>
+< / ul>
+
+< % end%>

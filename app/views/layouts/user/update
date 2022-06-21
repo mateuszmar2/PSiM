@@ -1,0 +1,29 @@
+<h1>Edit user Detail</h1>
+
+<%= form_for @reservation, :url =>{:action => "update", :id =>@reservation} do |f| %>
+
+<%= text_field 'users', 'title' %></p>
+<p><label for = "id_user">Price</label>:
+
+<%= text_field 'users', 'price' %></p>
+<p><label for = "first_name">Subject</label>:
+
+<%= text_field 'users', 'price' %></p>
+<p><label for = "last_name">Subject</label>:
+
+<%= text_field 'users', 'price' %></p>
+<p><label for = "email">Subject</label>: 
+
+<%= text_field 'users', 'price' %></p>
+<p><label for = "password">Subject</label>:
+
+<%= text_field 'users', 'price' %></p>
+<p><label for = "password_confirmation">Subject</label>:
+
+<%= text_field 'users', 'price' %></p>
+<p><label for = "is_admin">Subject</label>:
+
+<%= text_field 'users', 'price' %></p>
+<p><label for = "license_plate">Subject</label>:
+<%= f.submit "Save changes" %>
+<% end %>

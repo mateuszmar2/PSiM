@@ -1,0 +1,9 @@
+<h1><%= @spot.parking_spot_id %></h1>
+
+<p>
+   <strong>ID: </strong> $<%= @spot.parking_spot_id %><br />
+    <strong>X: </strong> $<%= @spot.coordinate_x %><br />
+     <strong>Y: </strong> $<%= @spot.coordinate_y %><br />
+</p>
+
+<hr />
