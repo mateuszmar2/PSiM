@@ -1,5 +1,4 @@
 class UserController < ApplicationController
-layout 'user'  
 def list
     @users = User.all
   end

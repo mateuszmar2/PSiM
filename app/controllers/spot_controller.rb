@@ -1,5 +1,4 @@
 class SpotController < ApplicationController
-layout 'spot'  
 def list
     @spots = Spot.all
   end

@@ -1,5 +1,4 @@
 class ReservationController < ApplicationController
-layout 'reservation'
 
 def list
     @reservations = Reservation.all
